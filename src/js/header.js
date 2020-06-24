@@ -89,4 +89,4 @@
 </script>
 <script type="text/javascript"  src="https://ii.tudelft.nl/~joostb/js/jquery.ui.affectbutton.mobile.js"></script>
 
-<link rel="stylesheet" href="https://github.com/ES-TUDelft/affectbutton-qualtrics/src/css/custom.css" />
+<link rel="stylesheet" href="https://raw.githubusercontent.com/ES-TUDelft/affectbutton-qualtrics/master/src/css/custom.css" />
