@@ -104,17 +104,17 @@ In case you need **more than one AffectButton** in a survey, you need to do the 
 
 This option requires modifying your survey's header scripts and CSS (to match the AffectButton template), which can be done as follows:
 
- * i. In Qualtrics, open a pre-existing survey (or create a new project)
+ **i.** In Qualtrics, open a pre-existing survey (or create a new project)
  
- * ii. Click on **Look & Feel** and do:
+ **ii.** Click on **Look & Feel** and do:
    
-<div align="center">
- <img src="pics/qlookandfeel.png" width="500px" />
-</div>
+  <div align="center">
+   <img src="pics/qlookandfeel.png" width="500px" />
+  </div>
 
-<div align="center">
- <img src="pics/qgeneral.png" width="500px" />
-</div>
+  <div align="center">
+   <img src="pics/qgeneral.png" width="500px" />
+  </div>
   
    * Select **General** => in **Header** click on **edit** then copy/paste the contents of the file [src/js/header.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/header.js) in the Header **source <>** content box (*remember to save your changes*)
    
@@ -128,13 +128,13 @@ This option requires modifying your survey's header scripts and CSS (to match th
    <img src="pics/qcustomcss.png" width="500px" />
   </div>
   
- * iii. In the survey, create a new Question and change its type to text (e.g., Descriptive Text)
+ **iii.** In the survey, create a new Question and change its type to text (e.g., Descriptive Text)
  
   <div align="center">
    <img src="pics/qnewquestiontype.png" width="500px" />
   </div>
   
- * iv. Edit the question content by clicking on its **Rich Content Editor**
+ **iv.** Edit the question content by clicking on its **Rich Content Editor**
   
   <div align="center">
    <img src="pics/qrichcontenteditor.png" width="500px" />
@@ -146,7 +146,7 @@ This option requires modifying your survey's header scripts and CSS (to match th
    <img src="pics/qhtmlcontent.png" width="500px" />
   </div>
   
- * v. Edit the question JavaScript 
+ **v.** Edit the question JavaScript 
   
    * Click on the **Advanced Question Options** (i.e., settings icon) and select the **JS Add Javascript** option
   
@@ -160,7 +160,7 @@ This option requires modifying your survey's header scripts and CSS (to match th
    <img src="pics/qjseditor.png" width="500px" />
   </div>
   
- * vi. Create 3 embedded data to store the AffectButton values
+ **vi.** Create 3 embedded data to store the AffectButton values
  
    - Click on **Survey Flow**
    
@@ -178,7 +178,7 @@ This option requires modifying your survey's header scripts and CSS (to match th
   
    * Save the flow
    
- * vii. Click on **Preview** to check that the survey is working as expected
+ **vii.** Click on **Preview** to check that the survey is working as expected
  
 
 *Good Luck!*
