@@ -1,0 +1,48 @@
+.ui-loader {
+  display: none !important;
+}
+[data-role=page], 
+.landscape, .landscape .ui-page, 
+.portrait, .portrait .ui-page,  
+.ui-mobile .ui-page {
+  min-height: auto;
+}
+.affectinput {
+  padding: 6px 10px;
+  margin: 4px 0;
+  margin-left: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.flexdiv {
+    display: flex; 
+    flex-direction: row; 
+    justify-content:  flex-end; 
+    align-items: center;
+}
+.affectcanvas {
+    height: 200px; 
+    width: 200px;
+}
+.center {
+   margin: 0 auto;
+  text-align: center;
+}
+.affectbtn {	
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.affectbtn:hover {
+  background-color: black;
+  color: white;
+}
