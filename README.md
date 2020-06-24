@@ -15,7 +15,7 @@ Note that in this guide we're using the affect template as a starting point for 
   
   * Go to the **Projects** page
   
-  <div>
+  <div align="center">
    <img src="pics/qprojects.png" width="500px" />
   </div>
   
@@ -23,25 +23,25 @@ Note that in this guide we're using the affect template as a starting point for 
   
   * Click on **Survey**
   
-  <div>
+  <div align="center">
    <img src="pics/qnewsurvey.png" width="500px" />
   </div>
   
   * Select **From a File** then click on **Choose file** and locate the *AffectButtonV2_Template.qsf* file you downloaded in step 1
   
-  <div>
+  <div align="center">
    <img src="pics/qchoosefile.png" width="500px" />
   </div>
   
   * Click on **GetStarted**
   
-  <div>
+  <div align="center">
    <img src="pics/qgetstarted.png" width="500px" />
   </div>
   
   * A new project based on the AffectButton template will be created (you can change the name to your liking)
   
-  <div>
+  <div align="center">
    <img src="pics/qaffectsurvey.png" width="500px" />
   </div>
   
