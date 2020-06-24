@@ -108,13 +108,13 @@ This option requires modifying your survey's header scripts and CSS (to match th
  
  * ii. Click on **Look & Feel** and do:
    
-  <div align="center">
-   <img src="pics/qlookandfeel.png" width="500px" />
-  </div>
-      
-  <div align="center">
-   <img src="pics/qgeneral.png" width="500px" />
-  </div>
+<div align="center">
+ <img src="pics/qlookandfeel.png" width="500px" />
+</div>
+
+<div align="center">
+ <img src="pics/qgeneral.png" width="500px" />
+</div>
   
    * Select **General** => in **Header** click on **edit** then copy/paste the contents of the file [src/js/header.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/header.js) in the Header **source <>** content box (*remember to save your changes*)
    
@@ -162,9 +162,9 @@ This option requires modifying your survey's header scripts and CSS (to match th
   
  * vi. Create 3 embedded data to store the AffectButton values
  
-   * Click on **Survey Flow**
+   - Click on **Survey Flow**
    
-   * Click on **+Add a New Element Here** and select **Embedded Data**
+   - Click on **+Add a New Element Here** and select **Embedded Data**
        
   <div align="center">
    <img src="pics/qnewsurveyflow.png" width="500px" />
