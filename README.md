@@ -59,6 +59,10 @@ Note that in this guide we're using the affect template as a starting point for 
 
 After testing the affect button (Step I), you can now add new blocks/questions to the survey. 
 
+---
+
+## III. Using more than one AffectButton (optional)
+
 In case you need **more than one AffectButton** in a survey, you need to do the following:
 
   * a. Select the question **"QAffectButton**
@@ -96,13 +100,13 @@ In case you need **more than one AffectButton** in a survey, you need to do the 
   
 ---
 
-## III. Adding the AffectButton to an existing survey
+## IV. Integrating the AffectButton into an existing survey
 
 This option requires modifying your survey's header scripts and CSS (to match the AffectButton template), which we will not cover here. You can contact us for more details.
 
 ---
 
-## VI. Citation
+## V. Citation
 
 Please cite Broekens et al. when you use the AffectButton in your studies:
 
