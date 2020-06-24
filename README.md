@@ -7,6 +7,22 @@ The affect button is used to collect users feedback via reporting their emotiona
 In the following, we provide a step-by-step guide for using the affect button in a Qualtrics survey. 
 Note that in this guide we're using the affect template as a starting point for a new survey.
 
+---
+
+## Content
+
+**I.** [Create a Qualtrics Survey using the AffectButton Template](#i-create-a-qualtrics-survey-using-the-affectbutton-template)
+
+**II.** [Survey Design](#ii-survey-design)
+
+**III.** [Using more than one AffectButton (optional)](#iii-using-more-than-one-affectbutton-optional)
+
+**IV.** [Integrating the AffectButton into an existing survey](#iv-integrating-the-affectbutton-into-an-existing-survey)
+
+**V.** [Citation](#v-citation)
+
+---
+
 ## I. Create a Qualtrics Survey using the AffectButton Template
 
   * Download the file: **[AffectButtonV2_Template.qsf](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/AffectButtonV2_Template.qsf)** (e.g., right click on *Raw* and download the file, then set the extension to .qsf if Git makes it .txt)
