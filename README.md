@@ -118,7 +118,9 @@ This option requires modifying your survey's header scripts and CSS (to match th
   
    * Select the **Source <>** then copy/paste the contents of the html file [src/html/affectbutton-question.html](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/html/affectbutton-question.html) into the content box
    
- * v. Edit the question JavaScript by clicking on its **JS** icon
+ * v. Edit the question JavaScript 
+ 
+   * Click on the **Advanced Question Options** (i.e., settings icon) and select the **JS Add Javascript** option
  
    * Copy/Paste the contents of the file [src/js/affectbutton-qualtrics.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/affectbutton-qualtrics.js) into the javascript editor, then save your changes
    
