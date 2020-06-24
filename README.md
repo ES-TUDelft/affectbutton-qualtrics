@@ -102,8 +102,41 @@ In case you need **more than one AffectButton** in a survey, you need to do the 
 
 ## IV. Integrating the AffectButton into an existing survey
 
-This option requires modifying your survey's header scripts and CSS (to match the AffectButton template), which we will not cover here. You can contact us for more details.
+This option requires modifying your survey's header scripts and CSS (to match the AffectButton template), which can be done as follows:
 
+ * i. In Qualtrics, open a pre-existing survey (or create a new project)
+ 
+ * ii. Click on **Look & Feel** and do:
+   
+   * Select **General** => in **Header** click on **edit** then copy/paste the contents of the file [src/js/header.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/header.js) in the Header **source <>** content box (*remember to save your changes*)
+  
+   * Select **Style** => then copy/paste the contents of the file [src/css/custom.css](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/css/custom.css) in the **Custom CSS** content box (*remember to save your changes*)
+
+ * iii. In the survey, create a new Question and change its type to text (e.g., Descriptive Text)
+ 
+ * iv. Edit the question content by clicking on its **Rich Content Editor**
+  
+   * Select the **Source <>** then copy/paste the contents of the html file [src/html/affectbutton-question.html](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/html/affectbutton-question.html) into the content box
+   
+ * v. Edit the question JavaScript by clicking on its **JS** icon
+ 
+   * Copy/Paste the contents of the file [src/js/affectbutton-qualtrics.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/affectbutton-qualtrics.js) into the javascript editor, then save your changes
+   
+ * vi. Create 3 embedded data to store the AffectButton values
+ 
+   * Click on **Survey Flow**
+   
+   * Click on **+Add a New Element Here** and select **Embedded Data**
+   
+   * Move the new Embedded Data element to be at the beginning of the flow and create **3 Embedded Data** (i.e., Pleasure, Dominance and Arousal)
+   
+   * Save the flow
+   
+ * vii. Click on **Preview** to check that the survey is working as expected
+ 
+
+*Good Luck!*
+ 
 ---
 
 ## V. Citation
