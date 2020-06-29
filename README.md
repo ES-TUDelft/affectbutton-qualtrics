@@ -2,7 +2,7 @@
 
 ---
 
-The affect button is used to collect users feedback via reporting their emotional state. It is based on the work by [Broekens et al.](http://joostbroekens.com).
+The affect button is used to collect users feedback via reporting their emotional state. It is based on the work by <a href="http://joostbroekens.com/" target="_blank">Broekens et al.</a> [[1]](#v-citation).
 
 In the following, we provide a step-by-step guide for using the affect button in a Qualtrics survey. 
 Note that in this guide we're using the affect template as a starting point for a new survey.
@@ -205,15 +205,17 @@ This option requires modifying your survey's header scripts and CSS (to match th
 
 Please cite Broekens et al. when you use the AffectButton in your studies:
 
-    @article{Broekens2013,
-      author = "Joost Broekens and Willem-Paul Brinkman",
-      title = "AffectButton: A method for reliable and valid affective self-report",
-      journal = "International Journal of Human-Computer Studies",
-      volume = "71",
-      number = "6",
-      pages = "641 - 667",
-      year = "2013",
-      issn = "1071-5819",
-      doi = "https://doi.org/10.1016/j.ijhcs.2013.02.003",
-      url = "http://www.sciencedirect.com/science/article/pii/S1071581913000220"
-    }
+ * [1] Broekens, J., & Brinkman, W.-P. (2013). AffectButton: a method for reliable and valid affective self-report. International Journal of Human-Computer Studies, 71(6), 641-667.
+
+       @article{Broekens2013,
+         author = "Joost Broekens and Willem-Paul Brinkman",
+         title = "AffectButton: A method for reliable and valid affective self-report",
+         journal = "International Journal of Human-Computer Studies",
+         volume = "71",
+         number = "6",
+         pages = "641 - 667",
+         year = "2013",
+         issn = "1071-5819",
+         doi = "https://doi.org/10.1016/j.ijhcs.2013.02.003",
+         url = "http://www.sciencedirect.com/science/article/pii/S1071581913000220"
+       }
