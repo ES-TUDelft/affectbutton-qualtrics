@@ -132,7 +132,7 @@ This option requires modifying your survey's header scripts and CSS (to match th
    <img src="pics/qgeneral.png" width="500px" />
   </div>
   
-   * Select **General** => in **Header** click on **edit** then copy/paste the contents of the file [src/js/header.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/header.js) in the Header **source <>** content box (*remember to save your changes*)
+   * Select **General** => in **Header** click on **edit** then copy/paste the contents of the file [src/html/header.html](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/html/header.html) in the Header **source <>** content box (*remember to save your changes*)
    
   <div align="center">
    <img src="pics/qheadercontent.png" width="500px" />
