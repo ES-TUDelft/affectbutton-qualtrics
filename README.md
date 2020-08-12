@@ -2,10 +2,9 @@
 
 ---
 
-The affect button is used to collect users feedback via reporting their emotional state. It is based on the work by <a href="http://joostbroekens.com/" target="_blank">Broekens et al.</a> [[1]](#v-citation).
+The AffectButton is used to collect users' feedback via reporting their emotional state. It is based on the work by <a href="http://joostbroekens.com/" target="_blank">Broekens et al.</a> [[1]](#v-citation).
 
-In the following, we provide a step-by-step guide for using the affect button in a Qualtrics survey. 
-Note that in this guide we're using the affect template as a starting point for a new survey.
+In the following, we provide a step-by-step guide for using the AffectButton in a Qualtrics survey.
 
 ---
 
@@ -25,7 +24,7 @@ Note that in this guide we're using the affect template as a starting point for 
 
 ## I. Create a Qualtrics Survey using the AffectButton Template
 
-  * Download the file: **[AffectButtonV2_Template.qsf](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/AffectButtonV2_Template.qsf)** (e.g., right click on *Raw* and download the file, then set the extension to .qsf if Git makes it .txt)
+  * Download the file: **[AffectButtonV2_Template.qsf](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/AffectButtonV2_Template.qsf)** (e.g., **right-click** on *Raw* and select *Download Linked File*; then go to the file and set its extension to .qsf if Git makes it .txt)
   
   * Open [Qualtrics.com](https://qualtrics.com) and login to your account (or create a new one)
   
@@ -49,7 +48,7 @@ Note that in this guide we're using the affect template as a starting point for 
    <img src="pics/qchoosefile.png" width="500px" />
   </div>
   
-  * Click on **GetStarted**
+  * Click on **Get Started**
   
   <div align="center">
    <img src="pics/qgetstarted.png" width="500px" />
@@ -63,7 +62,7 @@ Note that in this guide we're using the affect template as a starting point for 
   
   * Click on **Preview** to check/test the AffectButton
 
-  * The template provides you with one affect button and its corresponding data (Pleasure, Arousal and Dominance).
+  * The template provides you with one AffectButton and its corresponding data (Pleasure, Arousal and Dominance).
   
   <div align="center">
    <img src="pics/qaffectpreview.png" width="500px" />
@@ -73,7 +72,7 @@ Note that in this guide we're using the affect template as a starting point for 
 
 ## II. Survey Design
 
-After testing the affect button (Step I), you can now add new blocks/questions to the survey. 
+After testing the AffectButton (Step I), you can now add new blocks/questions to the survey. 
 
 ---
 
@@ -105,7 +104,7 @@ In case you need **more than one AffectButton** in a survey, you need to do the 
    <img src="pics/qsurveyflow.png" width="500px" />
   </div>
   
-  * g. Add 3 **new embedded data** with names matching the ones from ***Step e*** and save your changes
+  * g. Add 3 **new embedded data** (i.e., click on *Add a New Field*) with names matching the ones from ***Step e*** and save your changes
   
   <div align="center">
    <img src="pics/qembeddeddata.png" width="500px" />
@@ -122,7 +121,7 @@ This option requires modifying your survey's header scripts and CSS (to match th
 
  **i.** In Qualtrics, open a pre-existing survey (or create a new project)
  
- **ii.** Click on **Look & Feel** and do:
+ **ii.** Click on **Look & Feel** and do the following changes in *General* and *Style*:
    
   <div align="center">
    <img src="pics/qlookandfeel.png" width="500px" />
@@ -170,23 +169,23 @@ This option requires modifying your survey's header scripts and CSS (to match th
    <img src="pics/qselectjs.png" width="500px" />
   </div>
   
-   * Copy/Paste the contents of the file [src/js/affectbutton-qualtrics.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/affectbutton-qualtrics.js) into the javascript editor, then save your changes
+   * Copy/Paste the contents of the file [src/js/affectbutton-qualtrics.js](https://github.com/ES-TUDelft/affectbutton-qualtrics/blob/master/src/js/affectbutton-qualtrics.js) into the javascript editor (i.e., replacing the js code that was there), then save your changes
     
   <div align="center">
    <img src="pics/qjseditor.png" width="500px" />
   </div>
   
- **vi.** Create 3 embedded data to store the AffectButton values
+ **vi.** Create 3 embedded data to store the AffectButton values:
  
    - Click on **Survey Flow**
    
-   - Click on **+Add a New Element Here** and select **Embedded Data**
+   - If you already have an *Embedded Data Block* click on it and go to the next step; otherwise, click on **+Add a New Element Here** and select **Embedded Data**, then move the new Embedded Data block to the beginning of the flow (i.e., before any other block).
        
   <div align="center">
    <img src="pics/qnewsurveyflow.png" width="500px" />
   </div>
   
-   * Move the new Embedded Data element to the beginning of the flow and create **3 Embedded Data** (i.e., Pleasure, Dominance and Arousal)
+   *  Create **3 Embedded Data** (i.e., Pleasure, Dominance and Arousal). 
    
   <div align="center">
    <img src="pics/qnewembeddeddata.png" width="500px" />
