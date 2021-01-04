@@ -18,7 +18,9 @@ In the following, we provide a step-by-step guide for using the AffectButton in 
 
 **IV.** [Integrating the AffectButton into an existing survey](#iv-integrating-the-affectbutton-into-an-existing-survey)
 
-**V.** [Citation](#v-citation)
+**V.** [Know Issues](#v-known-issues)
+
+**VI.** [Citation](#vi-citation)
 
 ---
 
@@ -200,7 +202,24 @@ This option requires modifying your survey's header scripts and CSS (to match th
  
 ---
 
-## V. Citation
+## V. Known Issues
+
+A duplicate of the "next" button may appear on some of the pages.
+You can do the following to fix the issue:
+
+ * Click on the first (or last) question of a block and go to “Rich Content Editor” 
+ 
+ * Click on Source <>
+ 
+ * Paste the following at the end: 
+	
+   `<div style="height:1px;"><div data-role="page" id="index">&nbsp;</div></div>`
+
+You can apply the fix to every page with a double next button (i.e., by adding the div to the first OR last question of a block).
+
+---
+
+## VI. Citation
 
 Please cite Broekens et al. when you use the AffectButton in your studies:
 
